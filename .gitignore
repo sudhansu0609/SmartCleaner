@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Tests
+.pytest_cache/
+tests/.tmp/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
+
+# SmartCleaner run output (never commit a machine's file list)
+*.log
+cleanup_log.jsonl
+scan*.json
